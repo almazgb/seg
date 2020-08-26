@@ -1,0 +1,286 @@
+@import "http://allfont.ru/allfont.css?fonts=sansation-light";
+@import "https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Poiret+One&display=swap";
+@font-face{font-family:"MagsitralS";src:url(../fonts/MagistralC.woff)}
+*{padding:0;margin:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+* a{text-decoration:none;color:white}
+* ul{list-style:none}
+html{width:100%;height:100%;background-color:#fff;overflow-x:hidden}
+ .firstBlock{width:100%}
+ .containerFirst{height:100vh;position:relative;background-image:url("../images/FirstBlock-BG.webp");background-attachment:fixed;background-size:cover;font-family:sans-serif;background-repeat:no-repeat;font-weight:300}
+  .firstBlockMenu .PcMenu{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+  .firstBlockMenu .PcMenu .pc-navigation-links{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:start}
+  .firstBlockMenu .PcMenu .pc-navigation-links li,body .wrapper .firstBlock .container .firstBlockMenu .PcMenu .pc-navigation-links a{font-size:30px;padding:0 .4em;color:white;-webkit-transition:.3s all ease;transition:.3s all ease}
+  .firstBlockMenu .PcMenu .pc-navigation-links li:hover,body .wrapper .firstBlock .container .firstBlockMenu .PcMenu .pc-navigation-links a:hover{text-shadow:0 2px 4px #FFF}
+  .firstBlockMenu .PcMenu .centerLogo{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+  .firstBlockMenu .PcMenu .centerLogo .centerLogoContainer{width:15em;height:160px;background-color:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;text-align:center;-webkit-box-shadow:0 4px 4px rgba(0,0,0,0.25),inset 0 4px 4px rgba(0,0,0,0.25);box-shadow:0 4px 4px rgba(0,0,0,0.25),inset 0 4px 4px rgba(0,0,0,0.25);border-radius:0 0 15px 15px}
+  .firstBlockMenu .PcMenu .centerLogo .centerLogoContainer a svg{width:80px;height:100%}
+  .firstBlockMenu .PcMenu .centerLogo .centerLogoContainer span{font-size:18px}
+  .firstBlockMenu .PcMenu .pc-social-links{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
+  .firstBlockMenu .PcMenu .pc-social-links li,body .wrapper .firstBlock .container .firstBlockMenu .PcMenu .pc-social-links a{color:#fff;padding:0 .4em;-webkit-transition:.3s all ease;transition:.3s all ease}
+  .firstBlockMenu .PcMenu .pc-social-links li:hover,body .wrapper .firstBlock .container .firstBlockMenu .PcMenu .pc-social-links a:hover{color:gray}
+  .firstBlockCenterText{width:100%;height:60%;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;position:relative;text-align:center}
+  .firstBlockCenterText .CenterTextTitle h1{width:100%;color:#fff;position:relative;font-size:52px;font-weight:300}
+  .firstBlockCenterText .CenterTextDescription{position:relative;margin-top:5%;color:#fff}
+  .firstBlockCenterText .CenterTextDescription h2{font-size:40px;font-weight:300}
+  .firstBlockCenterText .CenterTextButton{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-top:10%}
+  .firstBlockCenterText .CenterTextButton a{display:Flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;width:100%}
+  .firstBlockCenterText .CenterTextButton a button{cursor:pointer;color:#fff;width:50%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:3em;font-size:16px;background:transparent;border:solid 2px #fff;border-radius:10px;-webkit-transition:.3s all ease;transition:.3s all ease;position:relative}
+  .firstBlockCenterText .CenterTextButton a button:hover{background-color:#fff;color:#000}
+  .firstBlockCenterText .CenterTextButton a button i{margin-left:10px}
+ .secondBlock{width:100%;position: relative;}
+  .secondBlockTitle{width:100%;height:7em;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+  .secondBlockTitle h1{font-family:"MagistralC";font-size:42px}
+  .secondBlock-Services{font-family:"Comfortaa";font-weight: 300;position:relative;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:70em}
+  .secondBlock-Services * h2{text-transform:uppercase;text-shadow:0 4px 4px rgba(0,0,0,0.25)}
+  .secondBlock-Services * button{cursor:pointer;font-size:1em;width:20em;height:4em;background:transparent;border-radius:10px;-webkit-box-shadow:0 4px 4px rgba(0,0,0,0.25);box-shadow:0 4px 4px rgba(0,0,0,0.25);border:solid 2px #000;-webkit-transition:.3s all ease;transition:.3s all ease}
+  .secondBlock-Services * button:hover{background-color:#000;color:#fff}
+  .secondBlock-Services .firstSector{display:-ms-grid;display:grid;-ms-grid-columns:(33%);grid-template-columns:repeat(3,33%)}
+  .secondBlock-Services .firstSector .firstService{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:90%;margin:0 auto;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:30em;background-color:#fff;-webkit-box-shadow:0 4px 20px rgba(0,0,0,0.25);box-shadow:0 4px 20px rgba(0,0,0,0.25);text-align:center}
+  .secondBlock-Services .firstSector .firstService .service-image svg{width:9em}
+  .secondBlock-Services .firstSector .firstService .hiddenForm1{font-family:"MagistralC";z-index:20;margin-left:-200px;opacity:0;pointer-events:none;position:absolute;height:100%;width:100%;left:0;top:0;-webkit-transition:.3s all ease;transition:.3s all ease}
+  .secondBlock-Services .firstSector .firstService .hiddenForm1 .background1{z-index:-1;position:absolute;width:100%;opacity:.5;height:100%;background-color:#000}
+  .secondBlock-Services .firstSector .firstService .hiddenForm1 .container{opacity:1;width:80%;height:100%;background-color:#fff;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+  .secondBlock-Services .firstSector .firstService .hiddenForm1 .container .closeBtn{height:100%;position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
+  .secondBlock-Services .firstSector .firstService .hiddenForm1 .container .closeBtn button{width:50px;height:50px;position:absolute;text-align:center;display:Flex;background:none;outline:none;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:none;cursor:pointer}
+  .secondBlock-Services .firstSector .firstService .hiddenForm1 .container .closeBtn button span{width:100%;-webkit-transition:.3s all ease;transition:.3s all ease;position:absolute;height:2px;background-color:#000;-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+  .secondBlock-Services .firstSector .firstService .hiddenForm1 .container .closeBtn button span::after{content:"";width:100%;-webkit-transition:.3s all ease;transition:.3s all ease;left:0;top:10px;position:absolute;height:2px;background-color:#000;top:0;-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
+  .secondBlock-Services .firstSector .firstService .hiddenForm1 .container .closeBtn button:hover span{background:red}
+  .secondBlock-Services .firstSector .firstService .hiddenForm1 .container .closeBtn button:hover span::after{background:red}
+  .secondBlock-Services .firstSector .firstService .hiddenForm1 .container form *{margin-top:1em}
+  .secondBlock-Services .firstSector .firstService .hiddenForm1 .container form input{text-align:center;width:400px;height:3em;border:solid 3px #000;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px}
+  .secondBlock-Services .firstSector .firstService .hiddenForm1 .container form .inner #ls{width:60px}
+  .secondBlock-Services .firstSector .firstService .hiddenForm1 .container form .date .inn{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+  .secondBlock-Services .firstSector .firstService .hiddenForm1 .container form .date .inn input{width:60px;height:30px}
+  .secondBlock-Services .firstSector .secondService{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:90%;margin:0 auto;height:30em;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background-color:#fff;-webkit-box-shadow:0 4px 20px rgba(0,0,0,0.25);box-shadow:0 4px 20px rgba(0,0,0,0.25);text-align:center}
+  .secondBlock-Services .firstSector .secondService .service-title h2{line-height:.8em}
+  .secondBlock-Services .firstSector .secondService .service-image svg{width:15em;height:17em}
+  .secondBlock-Services .firstSector .secondService .hiddenForm2{font-family:"MagistralC";z-index:20;margin-left:-200px;opacity:0;pointer-events:none;position:absolute;width:100%;height:100%;left:0;top:0;-webkit-transition:.3s all ease;transition:.3s all ease}
+  .secondBlock-Services .firstSector .secondService .hiddenForm2 .background2{z-index:-1;position:absolute;width:100%;opacity:.5;height:100%;background-color:#000}
+  .secondBlock-Services .firstSector .secondService .hiddenForm2 .container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;opacity:1;width:80%;height:100%;background-color:#fff;margin:0 auto}
+  .secondBlock-Services .firstSector .secondService .hiddenForm2 .container .closeBtn{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
+  .secondBlock-Services .firstSector .secondService .hiddenForm2 .container .closeBtn button{width:50px;height:50px;position:absolute;text-align:center;display:Flex;background:none;outline:none;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:none;cursor:pointer}
+  .secondBlock-Services .firstSector .secondService .hiddenForm2 .container .closeBtn button span{width:100%;-webkit-transition:.3s all ease;transition:.3s all ease;position:absolute;height:2px;background-color:#000;-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+  .secondBlock-Services .firstSector .secondService .hiddenForm2 .container .closeBtn button span::after{content:"";width:100%;-webkit-transition:.3s all ease;transition:.3s all ease;left:0;top:10px;position:absolute;height:2px;background-color:#000;top:0;-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
+  .secondBlock-Services .firstSector .secondService .hiddenForm2 .container .closeBtn button:hover span{background:red}
+  .secondBlock-Services .firstSector .secondService .hiddenForm2 .container .closeBtn button:hover span::after{background:red}
+  .secondBlock-Services .firstSector .secondService .hiddenForm2 .container form{width:100%;height:100%;background-color:#fff}
+  .secondBlock-Services .firstSector .secondService .hiddenForm2 .container form *{margin-top:1em}
+  .secondBlock-Services .firstSector .secondService .hiddenForm2 .container form input{text-align:center;width:400px;height:3em;border:solid 3px #000;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px}
+  .secondBlock-Services .firstSector .secondService .hiddenForm2 .container form .inner #ls{width:50px}
+  .secondBlock-Services .firstSector .secondService .hiddenForm2 .container form .inner .options{-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0 auto;width:100%;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;display:Flex}
+  .secondBlock-Services .firstSector .secondService .hiddenForm2 .container form .inner .options input{width:40px}
+  .secondBlock-Services .firstSector .secondService .hiddenForm2 .container form .date .inn{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+  .secondBlock-Services .firstSector .secondService .hiddenForm2 .container form .date .inn input{width:100px;height:30px}
+  .secondBlock-Services .thirdService{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:90%;margin:0 auto;height:30em;background-color:#fff;-webkit-box-shadow:0 4px 20px rgba(0,0,0,0.25);box-shadow:0 4px 20px rgba(0,0,0,0.25);text-align:center}
+  .secondBlock-Services .thirdService button{margin-top:2%}
+  .secondBlock-Services .thirdService .service-title h2{line-height:1em}
+  .secondBlock-Services .thirdService .service-image svg{width:12em}
+  .secondBlock-Services .thirdService .hiddenForm3{font-family:"MagistralC";z-index:20;margin-left:-200px;opacity:0;pointer-events:none;position:absolute;width:100%;height:100%;left:0;top:0;-webkit-transition:.3s all ease;transition:.3s all ease}
+  .secondBlock-Services .thirdService .hiddenForm3 .background3{z-index:-1;position:absolute;width:100%;opacity:.5;height:100%;background-color:#000}
+  .secondBlock-Services .thirdService .hiddenForm3 .container{opacity:1;display:Flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:80%;height:100%;background-color:#fff;margin:0 auto}
+  .secondBlock-Services .thirdService .hiddenForm3 .container .closeBtn{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;height:1.5em;width:100%;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
+  .secondBlock-Services .thirdService .hiddenForm3 .container .closeBtn button{width:50px;height:50px;position:absolute;text-align:center;display:Flex;background:none;outline:none;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:none;cursor:pointer}
+  .secondBlock-Services .thirdService .hiddenForm3 .container .closeBtn button span{width:100%;-webkit-transition:.3s all ease;transition:.3s all ease;position:absolute;height:2px;background-color:#000;-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+  .secondBlock-Services .thirdService .hiddenForm3 .container .closeBtn button span::after{content:"";width:100%;-webkit-transition:.3s all ease;transition:.3s all ease;left:0;top:10px;position:absolute;height:2px;background-color:#000;top:0;-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
+  .secondBlock-Services .thirdService .hiddenForm3 .container .closeBtn button:hover span{background:red}
+  .secondBlock-Services .thirdService .hiddenForm3 .container .closeBtn button:hover span::after{background:red}
+  .secondBlock-Services .thirdService .hiddenForm3 .container form *{margin-top:1em}
+  .secondBlock-Services .thirdService .hiddenForm3 .container form input{text-align:center;width:400px;height:3em;border:solid 3px #000;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px}
+  .secondBlock-Services .thirdService .hiddenForm3 .container form .inner #ls{width:50px}
+  .secondBlock-Services .thirdService .hiddenForm3 .container form .inner .options .forFirstOption{display:none}
+  .secondBlock-Services .thirdService .hiddenForm3 .container form .inner .options .forSecondOption{display:none}
+  .secondBlock-Services .thirdService .hiddenForm3 .container form .inner .options .forThirdOption{display:none}
+  .secondBlock-Services .thirdService .hiddenForm3 .container form .date .inn{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+  .secondBlock-Services .thirdService .hiddenForm3 .container form .date .inn input{width:100px;height:30px}
+  .secondSector{margin-top:1em;display:-ms-grid;display:grid;-ms-grid-columns:(33%);grid-template-columns:repeat(3,33%)}
+  .secondSector .fourthService{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:90%;margin:0 auto;height:30em;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background-color:#fff;-webkit-box-shadow:0 4px 20px rgba(0,0,0,0.25);box-shadow:0 4px 20px rgba(0,0,0,0.25);text-align:center}
+  .secondSector .fourthService button{margin-top:2%}
+  .secondSector .fourthService .service-title h2{line-height:1em}
+  .secondSector .fourthService .service-image svg{width:12em}
+  .secondSector .fourthService .hiddenForm4{font-family:"MagistralC";z-index:20;margin-left:-200px;opacity:0;pointer-events:none;position:absolute;width:100%;height:100%;left:0;top:0;-webkit-transition:.3s all ease;transition:.3s all ease}
+  .secondSector .fourthService .hiddenForm4 .background4{z-index:-1;position:absolute;width:100%;opacity:.5;height:100%;background-color:#000}
+  .secondSector .fourthService .hiddenForm4 .container{opacity:1;width:80%;height:100%;background-color:#fff;margin:0 auto}
+  .secondSector .fourthService .hiddenForm4 .container .closeBtn{height:1.5em;position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
+  .secondSector .fourthService .hiddenForm4 .container .closeBtn button{width:50px;height:50px;position:absolute;text-align:center;display:Flex;background:none;outline:none;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:none;cursor:pointer}
+  .secondSector .fourthService .hiddenForm4 .container .closeBtn button span{width:100%;-webkit-transition:.3s all ease;transition:.3s all ease;position:absolute;height:2px;background-color:#000;-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+  .secondSector .fourthService .hiddenForm4 .container .closeBtn button span::after{content:"";width:100%;-webkit-transition:.3s all ease;transition:.3s all ease;left:0;top:10px;position:absolute;height:2px;background-color:#000;top:0;-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
+  .secondSector .fourthService .hiddenForm4 .container .closeBtn button:hover span{background:red}
+  .secondSector .fourthService .hiddenForm4 .container .closeBtn button:hover span::after{background:red}
+  .secondSector .fourthService .hiddenForm4 .container form *{margin-top:1em}
+  .secondSector .fourthService .hiddenForm4 .container form input{text-align:center;width:50%;height:3em;border:solid 3px #000;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px}
+  .secondSector .fourthService .hiddenForm4 .container form .inner .centerVarr .sectors{display:block;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+  .secondSector .fourthService .hiddenForm4 .container form .inner .centerVarr .sectors .firstSector{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;text-align:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+  .secondSector .fourthService .hiddenForm4 .container form .inner .centerVarr .sectors .firstSector input{margin:0 auto}
+  .secondSector .fourthService .hiddenForm4 .container form .inner .centerVarr .sectors .secondSector{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;text-align:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+  .secondSector .fourthService .hiddenForm4 .container form .inner .centerVarr .sectors .secondSector select{margin:0 auto;width:20%}
+  .secondSector .fourthService .hiddenForm4 .container form .date .inn{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+  .secondSector .fourthService .hiddenForm4 .container form .date .inn input{width:100px;height:30px}
+  .secondSector .fivethService{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:90%;margin:0 auto;height:30em;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background-color:#fff;-webkit-box-shadow:0 4px 20px rgba(0,0,0,0.25);box-shadow:0 4px 20px rgba(0,0,0,0.25);text-align:center}
+  .secondSector .fivethService .service-title h2{line-height:.7em}
+  .secondSector .fivethService .service-image svg{width:14em;height:17em}
+  .secondSector .fivethService .hiddenForm5{font-family:"MagistralC";z-index:20;margin-left:-200px;opacity:0;pointer-events:none;position:absolute;width:100%;height:100%;left:0;top:0;-webkit-transition:.3s all ease;transition:.3s all ease}
+  .secondSector .fivethService .hiddenForm5 .background5{z-index:-1;position:absolute;width:100%;opacity:.5;height:100%;background-color:#000}
+  .secondSector .fivethService .hiddenForm5 .container{opacity:1;width:80%;height:100%;background-color:#fff;margin:0 auto}
+  .secondSector .fivethService .hiddenForm5 .container .closeBtn{top:0;height:2.8em;position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
+  .secondSector .fivethService .hiddenForm5 .container .closeBtn button{width:50px;height:50px;position:absolute;text-align:center;display:Flex;background:none;outline:none;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:none;cursor:pointer}
+  .secondSector .fivethService .hiddenForm5 .container .closeBtn button span{width:100%;-webkit-transition:.3s all ease;transition:.3s all ease;position:absolute;height:2px;background-color:#000;-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+  .secondSector .fivethService .hiddenForm5 .container .closeBtn button span::after{content:"";width:100%;-webkit-transition:.3s all ease;transition:.3s all ease;left:0;top:10px;position:absolute;height:2px;background-color:#000;top:0;-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
+  .secondSector .fivethService .hiddenForm5 .container .closeBtn button:hover span{background:red}
+  .secondSector .fivethService .hiddenForm5 .container .closeBtn button:hover span::after{background:red}
+  .secondSector .fivethService .hiddenForm5 .container form *{margin-top:1em}
+  .secondSector .fivethService .hiddenForm5 .container form input{text-align:center;width:50%;height:3em;border:solid 3px #000;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px}
+  .secondSector .fivethService .hiddenForm5 .container form .date .inn{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+  .secondSector .fivethService .hiddenForm5 .container form .date .inn input{width:100px;height:30px}
+  .secondSector .sixthService{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:90%;margin:0 auto;height:30em;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background-color:#fff;-webkit-box-shadow:0 4px 20px rgba(0,0,0,0.25);box-shadow:0 4px 20px rgba(0,0,0,0.25);text-align:center}
+  .secondSector .sixthService button{margin-top:2%}
+  .secondSector .sixthService .service-title h2{line-height:1em}
+  .secondSector .sixthService .service-image svg{width:13.5em;height:16em}
+  .secondSector .sixthService .hiddenForm6{font-family:"MagistralC";z-index:20;margin-left:-200px;opacity:0;pointer-events:none;position:absolute;width:100%;height:100%;left:0;top:0;-webkit-transition:.3s all ease;transition:.3s all ease}
+  .secondSector .sixthService .hiddenForm6 .title{text-transform:uppercase}
+  .secondSector .sixthService .hiddenForm6 .background6{z-index:-1;position:absolute;width:100%;opacity:.5;height:100%;background-color:#000}
+  .secondSector .sixthService .hiddenForm6 .container{opacity:1;display:Flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:80%;height:100%;background-color:#fff;margin:0 auto}
+  .secondSector .sixthService .hiddenForm6 .container .closeBtn{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
+  .secondSector .sixthService .hiddenForm6 .container .closeBtn button{width:50px;height:50px;position:absolute;text-align:center;display:Flex;background:none;outline:none;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:none;cursor:pointer}
+  .secondSector .sixthService .hiddenForm6 .container .closeBtn button span{width:100%;-webkit-transition:.3s all ease;transition:.3s all ease;position:absolute;height:2px;background-color:#000;-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+  .secondSector .sixthService .hiddenForm6 .container .closeBtn button span::after{content:"";width:100%;-webkit-transition:.3s all ease;transition:.3s all ease;left:0;top:10px;position:absolute;height:2px;background-color:#000;top:0;-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
+  .secondSector .sixthService .hiddenForm6 .container .closeBtn button:hover span{background:red}
+  .secondSector .sixthService .hiddenForm6 .container .closeBtn button:hover span::after{background:red}
+  .secondSector .sixthService .hiddenForm6 .container form *{margin-top:1em}
+  .secondSector .sixthService .hiddenForm6 .container form input{text-align:center;width:100%;height:3em;border:solid 3px #000;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px}
+  .secondSector .sixthService .hiddenForm6 .container form .date .inn{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+  .secondSector .sixthService .hiddenForm6 .container form .date .inn input{width:100px;height:30px}
+ .thirdBlock{width:100%;height:100%;position:relative}
+ .containerTitle .thirdBlock-Title{width:100%;height:5em;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+ .containerTitle .thirdBlock-Title h1{display:-webkit-box;display:-ms-flexbox;display:flex;font-family:"MagistralC";font-size:42px;font-weight:300;position:relative}
+ .containerTitle .thirdBlock-Title h1::after{content:"";position:absolute;width:100%;top:100%;height:2px;background-color:#000}
+ .containerTitle .thirdBlockReviews .container{width:100%;display:Flex;-ms-flex-pack:distribute;justify-content:space-around}
+ .fourthBlock{width:100%;position:relative}
+  .fourthBlockTitle{width:100%;height:90px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;background:#3D3D3D;-webkit-box-shadow:0 4px 4px rgba(0,0,0,0.25);box-shadow:0 4px 4px rgba(0,0,0,0.25);border-radius:0 0 20px 20px}
+  .fourthBlockTitle h1{font-family:"MagistralC";font-weight:300;font-size:46px;color:#fff;text-shadow:0 4px 4px rgba(0,0,0,0.25)}
+  .fourthBlockInner{height:40em;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-pack:distribute;justify-content:space-around}
+  .fourthBlockInner h2{text-decoration:underline;text-transform:uppercase;font-weight:300}
+  .fourthBlockInner .firstSector{font-weight:300}
+  .fourthBlockInner .firstSector *{margin-top:10px}
+  .fourthBlockInner .firstSector h2{font-size:40px}
+  .fourthBlockInner .firstSector li{font-size:32px}
+ .lastBlock{font-family:"MagistralC";height:7em;font-size:12px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#fff;font-weight:30;width:100%;background:rgba(0,0,0,0.85)}
+.reviews__title-box{max-width:520px;padding-left:140px;position:relative}
+.reviews__title-box:before{content:"";position:absolute;width:100px;height:2px;background-color:#058d76;left:0;top:11px}
+.reviews-title{font-size:24px;font-weight:300;line-height:24px;color:#212020;font-family:"Roboto",sans-serif;margin-bottom:10px}
+.reviews-text{letter-spacing:.1px}
+.reviews_items{display:-webkit-box;display:-ms-flexbox;display:flex}
+.reviews__item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-align:center;padding:30px 0 80px;position:relative;width:100%;margin:10px;min-height:350px;background-color:#fff;-webkit-box-shadow:0 7px 24.3px 2.7px rgba(91,89,89,0.14);box-shadow:0 7px 24.3px 2.7px rgba(91,89,89,0.14)}
+.reviews__item-title{color:#212020;font-size:18px;line-height:24px;font-weight:300;font-family:"Roboto" ,sans-serif;padding:15px 0}
+.reviews__item-text{font-family:"Comfortaa";letter-spacing:.1px;padding:0 35px}
+#file-upload{display:none}
+.selectThirdBlock{ -webkit-transition:.3s all ease; transition:.3s all ease; -moz-transition:.3s all ease; -ms-transition:.3s all ease; -o-transition:.3s all ease; }
+.selectThirdBlock option{ -webkit-transition:.3s all ease; transition:.3s all ease; -moz-transition:.3s all ease; -ms-transition:.3s all ease; -o-transition:.3s all ease; }
+@media (max-width: 1353px) {
+ .fourthBlockInner{text-align:center;display:flex;justify-content: center;flex-direction: column;height:100%;width:100%;margin:0 auto}
+ .fourthBlockInner .secondSector{width:100%;display: flex;justify-content: center;}
+ .fourthBlockInner .secondSector .map{overflow:hidden;padding-bottom:56.25%;position:relative;height:0;width:100%}
+ .fourthBlockInner .secondSector .map iframe{left:0;top:0;height:100%;width:100%;position:absolute}
+}
+@media (max-width: 1200px) {
+.firstBlockMenu .PcMenu .pc-navigation-links li,body .wrapper .firstBlock .container .firstBlockMenu .PcMenu .pc-navigation-links a{font-size:20px}
+.secondBlock-Services{height:100%}
+.secondBlock-Services .firstSector{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.secondBlock-Services .firstSector .firstService{width:80%}
+.secondBlock-Services .firstSector .firstService .hiddenForm1 .container{position: relative;top:0;height:auto;display:block}
+.secondBlock-Services .firstSector .secondService{width:80%}
+.secondBlock-Services .firstSector .secondService .hiddenForm2 .container{position: relative;top:480px;height:auto;display:block}
+.secondBlock-Services .firstSector .thirdService{width:80%}
+.secondBlock-Services .firstSector .thirdService .hiddenForm3 .container{position: relative;top:960px;height:auto;display:block}
+.secondBlock-Services .secondSector{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.secondBlock-Services .secondSector .fourthService{width:80%}
+.secondBlock-Services .secondSector .fourthService .hiddenForm4 .container{height:auto;position: relative;top:1458px;display:block}
+.secondBlock-Services .secondSector .fivethService{width:80%}
+.secondBlock-Services .secondSector .fivethService .hiddenForm5 .container{height:auto;position: relative;top:1940px;display:block}
+.secondBlock-Services .secondSector .sixthService{width:80%}
+.secondBlock-Services .secondSector .sixthService .hiddenForm6 .container{height:auto;position: relative;top:2240px;display:block}
+.secondBlock-Services .secondSector .sixthService .hiddenForm6 .container form input{width:600px}
+.reviews_items{width:80%;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.reviews__item{display:-webkit-box;display:-ms-flexbox;display:flex;margin-top:10px;min-height:200px}
+}
+@media (max-width: 1225px) {
+.thirdBlockInner .thirdBlockReviews{display:block}
+.thirdBlockInner .thirdBlockReviews span{font-size:38px}
+.fourthBlock{height:100%}
+ .fourthBlockInner{display:block;height:100%;width:100%;margin:0 auto}
+ .fourthBlockInner .firstSector{text-align:center}
+}
+@media (max-width: 840px) {
+ .thirdBlockInner .thirdBlockReviews{display:block}
+.thirdBlockInner .thirdBlockReviews span{font-size:28px}
+ .fourthBlockInner .firstSector h2{font-size:34px}
+ .fourthBlockInner .firstSector li{font-size:26px}
+}
+@media (max-width: 650px) {
+.thirdBlockInner .thirdBlockReviews span{font-size:22px}
+}
+@media (max-width: 525px) {
+.thirdBlockInner .thirdBlockReviews span{font-size:20px}
+.fourthBlockInner .firstSector h2{font-size:26px}
+.fourthBlockInner .firstSector li{font-size:18px}
+.thirdBlockInner .thirdBlockReviews span{font-size:18px}
+.fourthBlockTitle{height:60px}
+.fourthBlockTitle h1{font-size:24px;};
+}
+@media (max-width: 420px) {
+.thirdBlockInner .thirdBlockReviews span{font-size:16px}
+.lastBlock{font-size:8px}
+}
+@media (max-width: 350px) {
+.thirdBlockInner .thirdBlockReviews span{font-size:12px}
+}
+@media (max-width: 600px) {
+.firstBlockCenterText .CenterTextTitle h1{font-size:36px}
+.firstBlockCenterText .CenterTextDescription h2{font-size:30px}
+ .secondBlockTitle h1{font-size:32px}
+}
+@media (max-width: 500px) {
+ .secondBlockTitle h1{font-size:28px}
+ .secondBlock-Services .firstSector .firstService .hiddenForm1 .container{width:90%}
+ .secondBlock-Services .firstSector .firstService .hiddenForm1 .container form input{width:300px}
+ .secondBlock-Services .firstSector .secondService .hiddenForm2 .container{width:90%}
+ .secondBlock-Services .firstSector .secondService .hiddenForm2 .container form input{width:300px}
+ .secondBlock-Services .firstSector .thirdService .hiddenForm3 .container{width:90%}
+ .secondBlock-Services .firstSector .thirdService .hiddenForm3 .container form input{width:300px}
+ .secondBlock-Services .secondSector .fourthService .hiddenForm4 .container{width:90%}
+ .secondBlock-Services .secondSector .fourthService .hiddenForm4 .container form input{width:300px}
+ .secondBlock-Services .secondSector .fivethService .hiddenForm5 .container{width:90%}
+ .secondBlock-Services .secondSector .fivethService .hiddenForm5 .container form input{width:300px}
+ .secondBlock-Services .secondSector .sixthService .hiddenForm6 .container{width:90%}
+ .secondBlock-Services .secondSector .sixthService .hiddenForm6 .container form input{width:300px}
+}
+@media (max-width: 400px) {
+.firstBlockMenu .PcMenu .centerLogo{width:50%}
+ .secondBlockTitle h1{font-size:28px}
+ .secondBlock-Services * button{cursor:pointer;font-size:1em;width:12em;height:3.5em;background:transparent;border-radius:10px;-webkit-box-shadow:0 4px 4px rgba(0,0,0,0.25);box-shadow:0 4px 4px rgba(0,0,0,0.25);border:solid 2px #000;-webkit-transition:.3s all ease;transition:.3s all ease}
+ .secondBlock-Services * button:hover{background-color:#000;color:#fff}
+ .secondBlock-Services .firstSector{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+ .secondBlock-Services .firstSector .firstService{width:80%;height:15em}
+ .secondBlock-Services .firstSector .firstService .service-image svg{width:30%;height:100%}
+ .secondBlock-Services .firstSector .firstService .hiddenForm1 .container{height:auto}
+ .secondBlock-Services .firstSector .secondService{width:80%;height:15em}
+ .secondBlock-Services .firstSector .secondService .service-image svg{width:30%;height:100%}
+ .secondBlock-Services .firstSector .secondService .hiddenForm2 .container{position: relative;height:auto;top:240px}
+ .secondBlock-Services .firstSector .thirdService{width:80%;height:15em}
+ .secondBlock-Services .firstSector .thirdService .service-image svg{width:25%;height:100%}
+ .secondBlock-Services .firstSector .thirdService .hiddenForm3 .container{position: relative;height:auto;top:480px}
+ .secondBlock-Services .secondSector{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+ .secondBlock-Services .secondSector .fourthService{width:80%;height:15em}
+ .secondBlock-Services .secondSector .fourthService .service-image svg{width:25%;height:100%}
+ .secondBlock-Services .secondSector .fourthService .hiddenForm4 .container{position: relative;height:auto;top:735px}
+ .secondBlock-Services .secondSector .fourthService .hiddenForm4 .container *{margin-top:5px}
+ .secondBlock-Services .secondSector .fivethService{width:80%;height:15em}
+ .secondBlock-Services .secondSector .fivethService .service-image svg{width:25%;height:100%}
+ .secondBlock-Services .secondSector .fivethService .hiddenForm5 .container{position: relative;top:735px}
+ .secondBlock-Services .secondSector .fivethService .hiddenForm5 .container *{margin-top:10px}
+ .secondBlock-Services .secondSector .sixthService{width:80%;height:15em}
+ .secondBlock-Services .secondSector .sixthService .service-image svg{width:25%;height:100%}
+ .secondBlock-Services .secondSector .sixthService .hiddenForm6 .container{position: relative;top:975px}
+ .secondBlock-Services .secondSector .sixthService .hiddenForm6 .container *{margin-top:10px}
+ .fivethBlock-Title h1{font-size:36px}
+}
